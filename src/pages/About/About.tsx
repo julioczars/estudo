@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer/Footer"
 import { Menu } from "../../components/Header/Menu/Menu"
 import { Navbar } from "../../components/Header/Navbar/Navbar"
 
@@ -6,6 +7,7 @@ export function About(){
         <>
             <Navbar navbarTheme="light" />
             <Menu menuTheme="dark" />
+            <Footer footerTheme="light" />
         </>
     )
 }

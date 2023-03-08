@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.0e21ba87.css",
-    "main.js": "/static/js/main.342e5bea.js",
+    "main.js": "/static/js/main.99d9d5f1.js",
+    "static/media/brands.svg": "/static/media/brands.8828ea4a21e0f2fe60086f620a510b14.svg",
+    "static/media/instagram.svg": "/static/media/instagram.025cf7d3cced682804c7ad13e1eb02d9.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.0ee293c5b96ae2bd88122eb29138f052.svg",
+    "static/media/email.svg": "/static/media/email.acdc2f5099162ffa9b5ddce86e263073.svg",
+    "static/media/obo-brand-xl.svg": "/static/media/obo-brand-xl.6e352c5bbfcadcb464154d47040ac200.svg",
     "index.html": "/index.html",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.5a96a3981f0e02885453ea2f330ae621.svg",
     "main.0e21ba87.css.map": "/static/css/main.0e21ba87.css.map",
-    "main.342e5bea.js.map": "/static/js/main.342e5bea.js.map"
+    "main.99d9d5f1.js.map": "/static/js/main.99d9d5f1.js.map"
   },
   "entrypoints": [
     "static/css/main.0e21ba87.css",
-    "static/js/main.342e5bea.js"
+    "static/js/main.99d9d5f1.js"
   ]
 }
