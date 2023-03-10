@@ -1,5 +1,5 @@
 import { Link, Flex, Box, Text, Image } from "@chakra-ui/react"
-//import ArrowUpIcon from '../../../assets/icons/arrow_up.svg'
+import { ArrowUpIcon } from '../../../assets/icons/ArrowUp'
 
 interface NavbarOptions{
     navbarTheme?: any,
@@ -37,15 +37,17 @@ export function Navbar({ navbarTheme }:NavbarOptions){
                         ARTE AFROINDÍGENALATINOAMERICANA
                     </Text>
                 </Box>
-                <Flex>
-                    <Text>
-                        <Link href="/acesso">acessar</Link>
-                    </Text>
-                    <Box
-                        ml="10px"
+                <Flex
+                    color="#C5410D"
+                >
+                    <Link 
+                        href="/acesso" 
+                        display="flex"
                     >
-                        {/* <Image src={ArrowUpIcon} /> */}
-                    </Box>
+                        acessar
+                        <ArrowUpIcon iconColor="#C5410D" />
+                    </Link>
+    
                 </Flex>
             </Flex>
         </>

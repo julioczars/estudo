@@ -3,6 +3,7 @@ import { Navbar } from "../../components/Header/Navbar/Navbar"
 import { Footer } from "../../components/Footer/Footer"
 import { Register } from "../../components/Forms/Register/Register"
 import { Login } from "../../components/Forms/Login/Login"
+import { Forgot } from "../../components/Forms/Forgot/Forgot"
 import { Box, Flex, Text, Image } from "@chakra-ui/react"
 import BrandOboIcon from "../../assets/brands/obo-brand-xl.svg"
 
@@ -10,6 +11,7 @@ export function Singin(){
     return (
         <Box
             bg="lightColor"
+            minH="100vh"
         >
             <Navbar navbarTheme="dark" />
             <Menu menuTheme="ligh" />
@@ -43,7 +45,7 @@ export function Singin(){
                             fontSize="28px"
                             color="darkColor"
                         >
-                            CADASTRAR
+                            CADASTRO
                         </Text>
 
                         <Register />
@@ -67,7 +69,7 @@ export function Singin(){
                             recuperar senha
                         </Text>
 
-                        <Login />
+                        <Forgot />
                     </Box>
                     <Box
                         mt="120px"

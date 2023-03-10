@@ -1,8 +1,8 @@
 import { Flex, Box, Image } from "@chakra-ui/react"
-import EmailIcon from "../../assets/icons/email.svg"
-import InstagramIcon   from "../../assets/icons/instagram.svg"
-import WhatsIcon  from "../../assets/icons/whatsapp.svg"
-import BrandsIcon  from "../../assets/icons/brands.svg"
+import { Email } from "../../assets/icons/Email"
+import { Instagram }   from "../../assets/icons/Instagram"
+import { Whatsapp }  from "../../assets/icons/Whatsapp"
+import { Brands }  from "../../assets/icons/Brands"
 
 interface footerOptions {
     footerTheme?: any,
@@ -11,11 +11,13 @@ interface footerOptions {
 const footerDark = {
     bg: "darkColor",
     color: "lightColor",
+    icon: "#E0DDDE"
 }
 
 const footerLight = {
     bg: "lightColor",
     color: "darkColor",
+    icon: "#212121"
 }
 
 export function Footer({footerTheme}:footerOptions){
@@ -30,14 +32,23 @@ export function Footer({footerTheme}:footerOptions){
                 bg={footerColor.bg}
                 justify="space-between"
                 align="center"
+                position="absolute"
+                w="100%"
+                bottom="0"
             >
                 <Flex>
-                    <Image src={InstagramIcon} style={{ marginRight: "15px" }} />
-                    <Image src={WhatsIcon} style={{ marginRight: "15px" }} />
-                    <Image src={EmailIcon} />
+                    <Box mr="15px">
+                        <Instagram iconColor={footerColor.icon} />
+                    </Box>
+                    <Box mr="15px">
+                        <Whatsapp iconColor={footerColor.icon} />
+                    </Box>
+                    <Box>
+                        <Email iconColor={footerColor.icon} />
+                    </Box>
                 </Flex>
                 <Flex>
-                    <Image src={BrandsIcon} />
+                    <Brands iconColor={footerColor.icon} />
                 </Flex>
             </Flex>
         </>
