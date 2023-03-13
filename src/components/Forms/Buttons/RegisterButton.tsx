@@ -1,4 +1,5 @@
-import { Button } from "@chakra-ui/react";
+import { Button, Image } from "@chakra-ui/react";
+import ArrowLeft from "../../../assets/icons/arrow-left.svg"
 
 export function RegisterButton(){
     return(
@@ -10,7 +11,9 @@ export function RegisterButton(){
                 w="100%"
                 color="lightColor"
             >
-                cadastrar
+
+                cadastrar 
+                <Image src={ArrowLeft} ml="5px" />
             </Button>
         </>
     )

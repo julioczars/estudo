@@ -33,7 +33,7 @@ export function Home(){
                         onMouseEnter={onToggle}
                         onMouseLeave={onToggle}
                     >
-                        <ScaleFade initialScale={0.8} in={isOpen}>
+                        {/* <ScaleFade initialScale={0.8} in={isOpen}>
                             <Box
                                 alignContent="center"
                                 bg="lightColor"
@@ -55,7 +55,7 @@ export function Home(){
                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                 </Text>                                
                             </Box>
-                        </ScaleFade>
+                        </ScaleFade> */}
                     </Flex>
 
                     <Flex
@@ -66,7 +66,7 @@ export function Home(){
                         align="end"
                         cursor="pointer"
                     >
-                        <ScaleFade initialScale={0.8} in={isOpen}>
+                        {/* <ScaleFade initialScale={0.8} in={isOpen}>
                             <Box
                                 alignContent="center"
                                 bg="lightColor"
@@ -86,7 +86,7 @@ export function Home(){
                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                 </Text>                                
                             </Box>
-                        </ScaleFade>
+                        </ScaleFade> */}
                     </Flex>
 
                     <Flex

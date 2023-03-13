@@ -1,6 +1,5 @@
-import { Box, Button, FormControl, Input, Text, Image, FormLabel } from "@chakra-ui/react";
+import { Box, FormControl, Input, FormLabel } from "@chakra-ui/react";
 import { RegisterButton } from "../Buttons/RegisterButton";
-import ArrowLeft from "../../../assets/icons/arrow-left.svg";
 
 export function Register(){
     return(

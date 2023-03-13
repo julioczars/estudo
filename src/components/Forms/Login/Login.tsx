@@ -35,11 +35,8 @@ export function Login(){
                             color="lightColor"
                         >
                             <Text>entrar</Text>
-                            <Box
-                                alignItems="center"
-                                justifyContent="center"
-                            >
-                                <Image src={ArrowLeft} />
+                            <Box>
+                                <Image m="0 auto" src={ArrowLeft} />
                             </Box>
                         </Button>
                     </Box>

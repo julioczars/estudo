@@ -35,11 +35,8 @@ export function Forgot(){
                             color="lightColor"
                         >
                             <Text>enviar</Text>
-                            <Box
-                                alignItems="center"
-                                justifyContent="center"
-                            >
-                                <Image src={ArrowRight} />
+                            <Box>
+                                <Image m="0 auto" src={ArrowRight} />
                             </Box>
                         </Button>
                     </Box>
